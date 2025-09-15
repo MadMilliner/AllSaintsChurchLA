@@ -164,6 +164,7 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   grid-area: desc;
   width: 65vw;
   margin: auto;
+  margin-bottom: 1.5rem;
 }
 
 .description .bold {
@@ -172,11 +173,20 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 
 .events {
   grid-area: events;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.IGfeed {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .jesus {
   grid-area: jesus;
   display: flex;
+  margin-bottom: 1.5rem;
 }
 
 .jesus-left {
@@ -199,6 +209,8 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 .signup {
   grid-area: signup;
   justify-self: center;
+  margin-bottom: .5rem;
+  line-height: 1.5rem;
 }
 
 #footer {
@@ -206,7 +218,7 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   justify-content: space-around;
   margin-top: 1.5rem;
   padding-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10vh;
   font-size: .85rem;
   /* border-top: 1px solid var(--var-medlight); */
 }
