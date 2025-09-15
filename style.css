@@ -183,6 +183,10 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   flex-wrap: wrap;
 }
 
+.commonninja-ribbon-link {
+  display: none !important;
+}
+
 .jesus {
   grid-area: jesus;
   display: flex;
