@@ -179,12 +179,7 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 }
 
 .IGfeed {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.commonninja-ribbon-link {
-  display: none !important;
+  height: 20vh;
 }
 
 .jesus {
@@ -225,6 +220,11 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   margin-bottom: 10vh;
   font-size: .85rem;
   /* border-top: 1px solid var(--var-medlight); */
+  position: sticky;
+  bottom: 0;
+  width: 100vw;
+  z-index: 9;
+  background-color: var(--var-medlight);
 }
 
 #footer a {
