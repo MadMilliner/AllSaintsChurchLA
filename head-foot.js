@@ -14,6 +14,7 @@ const footerContent = () => `
         <div>All Saints Los Angeles</div>
         <div><a href="https://www.instagram.com/allsaintschurchla/" target="_blank"><img src="img/instagram logo_icon.png" alt=""></a></div>
         <div><a href="https://chat.whatsapp.com/KKgRO6k60Us7ofspO42nbq" target="_blank"><img src="img/whatsapp logo_icon.png" alt=""></a></div>
+        <div><a href="https://open.spotify.com/show/73BmDDi6yqUY6CptdBgDLD?si=38b2ba9631ef49b4" target="_blank"><img src="img/icons8-spotify-50.png" alt=""></a></div>
         <div><a href="mailto:admin@allsaintsla.church">admin@allsaintsla.church</a></div>
 `        
         export {headerContent, footerContent}

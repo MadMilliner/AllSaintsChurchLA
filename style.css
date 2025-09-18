@@ -22,6 +22,7 @@ ol[role="list"], ul[role="list"] {
 h1, h2, h3, h4, h5 {
   font-size: inherit;
   font-weight: inherit;
+  text-align: center;
 }
 
 img {
@@ -34,7 +35,8 @@ img {
 :root {
   --var-dark: #000;
   --var-light: #ffff;
-  --var-medlight: #656464cd;
+  --var-medlight: #656464da;
+  --var-lightmed: #a3a3a3eb;
   --var-med: #535353;
   --var-rnbw1: #953f41;
   --var-rnbw2: #db6728;
@@ -178,8 +180,12 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   align-items: center;
 }
 
-.IGfeed {
+#IGfeed {
   height: 20vh;
+}
+
+.lightwidget-widget {
+  height: 30vh !important;
 }
 
 .jesus {
@@ -224,7 +230,7 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   bottom: 0;
   width: 100vw;
   z-index: 9;
-  background-color: var(--var-medlight);
+  background-color: var(--var-lightmed);
 }
 
 #footer a {
@@ -237,4 +243,40 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 
 #footer img {
   max-width: 1.5rem;
+}
+
+/* about */
+.leadership {
+
+}
+
+#page h2 {
+  font-size: 1.5rem;
+}
+
+.board {
+  display: flex;
+  gap: 1vw;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  font-size: .8rem;
+  background-color: lightgray;
+  padding: 5vh 5vw;
+}
+
+.board div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.board img {
+  object-fit: cover;
+  display: block;
+  max-width: 15vw;
+  max-height: 25vh;
+  height: auto;
+  width: auto;
 }
