@@ -250,14 +250,32 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 
 }
 
-#page h2 {
+#aboutPage h2 {
   font-size: 1.5rem;
+  font-weight: 400;
+  text-align: start;
+  margin-left: 1%;
+}
+
+#aboutPage {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#whoWeAre {
+  width: 65vw;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
 }
 
 .board {
+  width: 65vw;
   display: flex;
+  flex-wrap: wrap;
   gap: 1vw;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-left: 5%;
   margin-right: 5%;
   text-align: center;
