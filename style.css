@@ -246,15 +246,12 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 }
 
 /* about */
-.leadership {
 
-}
-
-#aboutPage h2 {
+#aboutPage>h2, #weBelievePage>h2 {
   font-size: 1.5rem;
   font-weight: 400;
   text-align: start;
-  margin-left: 1%;
+  margin-left: 10%;
 }
 
 #aboutPage {
@@ -276,6 +273,7 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   flex-wrap: wrap;
   gap: 1vw;
   justify-content: space-evenly;
+  align-self: center;
   margin-left: 5%;
   margin-right: 5%;
   text-align: center;
@@ -287,14 +285,54 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 .board div {
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
 }
 
 .board img {
   object-fit: cover;
   display: block;
   max-width: 15vw;
-  max-height: 25vh;
+  height: auto;
   height: auto;
   width: auto;
+}
+
+#whatWeBelieve {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5vh 5vw;
+  gap: 5%;
+}
+
+#whatWeBelieve>img {
+  /* width: 23rem; */
+  max-width: 25vw;
+  max-height: 5%;
+  height: auto;
+  display: block;
+}
+
+#whatWeBelieve>p {
+  max-width: 50vw;
+  font-weight: 200;
+}
+
+#beliefs {
+  display: flex;
+  flex-direction: column;
+  margin: 5vh 5vw;
+}
+
+#beliefs>h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: start;
+  margin: 3vh 5vw;
+  align-self: start;
+}
+
+#beliefs>p {
+  width: 65vw;
+  align-self: center;
 }
