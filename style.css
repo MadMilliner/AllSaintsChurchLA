@@ -35,8 +35,8 @@ img {
 :root {
   --var-dark: #000;
   --var-light: #ffff;
-  --var-medlight: #656464da;
-  --var-lightmed: #a3a3a3eb;
+  --var-medlight: #333333;
+  --var-lightmed: #a3a3a3;
   --var-med: #535353;
   --var-rnbw1: #953f41;
   --var-rnbw2: #db6728;
@@ -57,23 +57,27 @@ img {
   position: sticky;
   top: 0;
   justify-content: space-between;
+  align-content: center;
   width: 100%;
   margin-bottom: 20px;
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-bottom: 1%;
+  padding: 1% 1.5%;
+}
+
+#headerLogoA {
+  max-width: 35vw;
 }
 
 #headerlogo {
-  width: calc(20vw - 2rem);
+  width: calc(20vw - 1%);
   padding: 5px;
-}
+  }
 
 #navbar {
   display: flex;
   gap: 1vw;
   font-size: .8rem;
   align-items: center;
+  width: fit-content;
   color: var(--var-light);
 }
 
@@ -211,11 +215,13 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   padding: 2rem;
 }
 
-.signup {
+#signup {
   grid-area: signup;
   justify-self: center;
   margin-bottom: .5rem;
   line-height: 1.5rem;
+  margin: auto;
+  margin-top: 1.5rem;
 }
 
 #footer {
@@ -297,6 +303,11 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   width: auto;
 }
 
+#weBelievePage {
+  display: flex;
+  flex-direction: column;
+}
+
 #whatWeBelieve {
   display: flex;
   flex-wrap: wrap;
@@ -335,4 +346,36 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 #beliefs>p {
   width: 65vw;
   align-self: center;
+}
+
+#believeScripture {
+  padding-top: 1rem;
+  margin: auto;
+  width: 50vw;
+  font-weight: 200;
+}
+
+#believeScripture>h5 {
+  padding-top: .5rem;
+  font-weight: 600;
+}
+
+#eventsPage {
+  display: flex;
+  flex-direction: column;
+}
+
+#givePage {
+  display: flex;
+  flex-direction: column;
+}
+
+#contactPage {
+  display: flex;
+  flex-direction: column;
+}
+
+#jobsPage {
+  display: flex;
+  flex-direction: column;
 }
