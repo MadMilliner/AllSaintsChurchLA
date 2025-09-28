@@ -399,6 +399,22 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   flex-direction: column;
 }
 
+#giving {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  margin: 1vh auto;
+}
+
+#howGive {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 35vw;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+
 #contactPage {
   display: flex;
   flex-direction: column;
