@@ -38,7 +38,7 @@ class Event {
 // Add Events here
 new Event("Fall Community Groups", "7pm-9pm", "2025-10-15T00:00:00", "We will be reading and discussing Inspired: Slaying Giants", "img/events/fall2025groups.jpg")
 new Event("Fall Community Groups", "7pm-9pm", "2025-10-22T00:00:00", "We will be reading and discussing Inspired: Slaying Giants", "img/events/fall2025groups.jpg")
-new Event("All Saints LA Service", "5pm", "2025-10-26T00:00:00", "Join us for worship", "/img/Service & Congregation/Photo Sep 03 2023, 4 15 19 PM.jpg")
+new Event("All Saints LA Service", "5pm", "2025-10-26T00:00:00", "Join us for worship", "img/events/servicePhoto.jpg")
 new Event("Fall Community Groups", "7pm-9pm", "2025-10-29T00:00:00", "We will be reading and discussing Inspired: Slaying Giants", "img/events/fall2025groups.jpg")
 // new Event("title", "time", "date", "description", "image path")
 // 
