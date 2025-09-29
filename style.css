@@ -1,6 +1,7 @@
 @import url('modern-normalize.css');
 @import url('font.css');
 @import url('calendar.css');
+@import url('contact-form.css');
 
 :root {
   line-height: 1.5;
@@ -51,6 +52,22 @@ img {
   font-family: "Poppins", sans-serif;
 }
 
+
+button {
+  font-size: .7rem;
+  color: var(--var-light);
+  background-color: var(--var-lightmed);
+  border-radius: 5px;
+  border: none;
+  width:  10rem;
+  height: 3rem;
+  margin: .5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  border: var(--var-dark) 2px solid;
+} 
 
 #header {
   display: flex;
@@ -174,7 +191,7 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   margin-bottom: 1.5rem;
 }
 
-.description .bold {
+.description .bold, .bold {
   font-weight: 600;
 }
 
@@ -430,14 +447,33 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 #howGive {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 35vw;
+  width: 50vw;
   margin-top: 3rem;
   gap: 5rem;
+}
+
+#howGive h3 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+#howGive p {
+  margin: .5rem;
+}
+
+#howGive>div :nth-child(2) {
+  font-weight: 200;
+  font-size: .65rem;
 }
 
 #contactPage {
   display: flex;
   flex-direction: column;
+}
+
+#contactPage form {
+  margin-left: 15vw;
+  font-size: .9rem;
 }
 
 #jobsPage {

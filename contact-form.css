@@ -1,0 +1,68 @@
+.contact-form {
+  max-width: 60vw;
+  font-family: sans-serif;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.contact-form span {
+  font-weight: normal;
+  color: #555;
+  font-size: 0.9em;
+}
+
+.name-fields {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.name-fields div {
+  flex: 1;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.2rem;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  background: #f9f9f9;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus, button:focus {
+  outline: 2px solid blue;
+  outline-offset: 2px;
+}
+
+input:invalid {
+  outline: 2px solid red;
+}
+
+/* button {
+  margin-top: 1.5rem;
+  background: #a5a39e;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #8f8c87;
+} */
+
+/* Responsive behavior */
+@media (max-width: 600px) {
+  .name-fields {
+    flex-direction: column;
+  }
+}
