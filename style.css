@@ -1,5 +1,6 @@
 @import url('modern-normalize.css');
 @import url('font.css');
+@import url('calendar.css');
 
 :root {
   line-height: 1.5;
@@ -361,9 +362,27 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 }
 
 #eventsPage {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-areas: "title title" "calendar events" "signup signup";
   align-items: center;
+}
+
+#eventsPage>h2 {
+  grid-area: title;
+  padding-bottom: 2rem;
+}
+
+#calendar {
+  grid-area: calendar;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: start;
+} 
+
+#eventsList {
+  grid-area: events;
+  margin: auto;
 }
 
 #eventsPage>h2 {
@@ -378,6 +397,7 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   align-items: flex-start;
   width: 40vw;
   margin: 2rem, auto;
+  padding-bottom: 1rem;
 }
 
 .eventBoxRight {
