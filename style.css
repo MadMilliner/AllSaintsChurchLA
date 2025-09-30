@@ -30,6 +30,7 @@ h1, h2, h3, h4, h5 {
 img {
   display: block;
   max-inline-size: 100%;
+  max-width: 100%;
 }
 
 /* END TEMPLATE */
@@ -336,10 +337,11 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 
 #whatWeBelieve>img {
   /* width: 23rem; */
-  max-width: 25vw;
-  max-height: 5%;
+  width: min(200px, 25rem);
+  max-width: 100%;
   height: auto;
   display: block;
+  object-fit: scale-down;
 }
 
 #whatWeBelieve>p {
@@ -426,6 +428,8 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 .eventBox img {
   height: min(40vh, 100%);
   width: auto;
+  max-width: 100%;
+  object-fit: contain;
   align-self: center;
 }
 
