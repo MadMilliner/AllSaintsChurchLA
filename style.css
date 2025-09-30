@@ -69,7 +69,7 @@ button:hover {
   border: var(--var-dark) 2px solid;
 } 
 
-#header {
+#nav-header {
   display: flex;
   background-color: var(--var-medlight);
   position: sticky;
@@ -85,7 +85,7 @@ button:hover {
   max-width: 35vw;
 }
 
-#headerlogo {
+#nav-headerlogo {
   width: calc(20vw - 1%);
   padding: 5px;
   }
