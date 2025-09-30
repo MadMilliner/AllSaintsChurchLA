@@ -337,7 +337,7 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 
 #whatWeBelieve>img {
   /* width: 23rem; */
-  width: min(200px, 25rem);
+  width: min(350px, 25rem);
   max-width: 100%;
   height: auto;
   display: block;
