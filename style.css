@@ -117,25 +117,49 @@ a[href="about.html"]:link, a[href="about.html"]:visited {
   color: var(--var-rnbw1) !important;
 }
 
+#aboutPage h2, #aboutPage h3, #aboutPage h4, #aboutPage h5, #aboutPage h6 {
+  color: var(--var-rnbw1);
+} 
+
 a[href="webelieve.html"], a[href="webelieve.html"]:visited {
   color: var(--var-rnbw2) !important;
 }
+
+#weBelievePage h2, #weBelievePage h3, #weBelievePage h4, #weBelievePage h5, #weBelievePage h6 {
+  color: var(--var-rnbw2);
+} 
 
 a[href="events.html"], a[href="events.html"]:visited {
   color: var(--var-rnbw3) !important;
 }
 
+#eventsPage h2, #eventsPage h3, #eventsPage h4, #eventsPage h5, #eventsPage h6 {
+  color: var(--var-rnbw3);
+} 
+
 a[href="give.html"], a[href="give.html"]:visited {
   color: var(--var-rnbw4) !important;
 }
+
+#givePage h2, #givePage h3, #givePage h4, #givePage h5, #givePage h6 {
+  color: var(--var-rnbw4);
+} 
 
 a[href="contact.html"], a[href="contact.html"]:visited {
   color: var(--var-rnbw5) !important;
 }
 
+#contactPage h2, #contactPage h3, #contactPage h4, #contactPage h5, #contactPage h6 {
+  color: var(--var-rnbw5);
+} 
+
 a[href="jobs.html"], a[href="jobs.html"]:visited {
   color: var(--var-rnbw6) !important;
 }
+
+#jobsPage h2, #jobsPage h3, #jobsPage h4, #jobsPage h5, #jobsPage h6 {
+  color: var(--var-rnbw6);
+} 
 
 #page {
   display: grid;
