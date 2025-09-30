@@ -48,3 +48,7 @@
   background: #fffae0;
   transition: background 1s ease;
 }
+
+#nextMonth, #prevMonth {
+    color: #000;
+}

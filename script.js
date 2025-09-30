@@ -48,7 +48,7 @@ function underlineCurrentPage() {
     document.addEventListener("DOMContentLoaded", underlineCurrentPage);
 
 
-    eventsList = document.getElementById("eventsList")
+    const eventsList = document.getElementById("eventsList")
 
     const events = []
     window.events = events
