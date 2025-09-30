@@ -12,7 +12,7 @@ const headerContent = () => `
 const signupContent = () => `
                 <div class="signup">
                 <p>Sign up with your email address to receive our monthly newsletter.</p>
-                <p><input type="email" autocomplete="email" placeholder="E-mail address">
+                <p><input id="newsletterEmail" type="email" autocomplete="email" placeholder="E-mail address">
                 <button type="submit">Sign-Up</button></p>
                 </div>
         `
