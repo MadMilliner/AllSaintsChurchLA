@@ -82,7 +82,7 @@ button:hover {
 }
 
 #headerLogoA {
-  max-width: 35vw;
+  max-width: 30vw;
 }
 
 #nav-headerlogo {
@@ -238,15 +238,15 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   justify-self: center;
   margin-bottom: .5rem;
   line-height: 1.5rem;
-  margin: auto;
-  margin-top: 1.5rem;
+  margin: 1.5rem auto;
+  width: 70vw;
 }
 
 #footer {
   display: flex;
   justify-content: space-around;
   margin-top: 1.5rem;
-  padding-top: 5px;
+  padding: .3rem 1rem;
   margin-bottom: 10vh;
   font-size: .85rem;
   /* border-top: 1px solid var(--var-medlight); */
@@ -366,8 +366,8 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   align-self: center;
 }
 
-#believeScripture {
-  padding-top: 1rem;
+#believeScripture { 
+  padding: 1rem 2rem;
   margin: auto;
   width: 50vw;
   font-weight: 200;
@@ -442,6 +442,16 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   align-items: center;
   width: 70vw;
   margin: 1vh auto;
+  font-size: .7rem;
+}
+
+#giving h2 {
+  font-size: 1.2rem;
+  margin: 1.5rem;
+}
+
+#giving h3 {
+  font-size: 1rem;
 }
 
 #howGive {
@@ -466,9 +476,18 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
   font-size: .65rem;
 }
 
+#howGive>div>p {
+  font-size: .7rem;
+}
+
 #contactPage {
   display: flex;
   flex-direction: column;
+}
+
+#contactPage h4 {
+  margin: 1.5rem 3rem;
+  text-align: left;
 }
 
 #contactPage form {
@@ -479,4 +498,36 @@ a[href="jobs.html"], a[href="jobs.html"]:visited {
 #jobsPage {
   display: flex;
   flex-direction: column;
+}
+
+#leadPastor {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 2rem;
+  color: var(--var-dark);
+  width: 65vw;
+  align-self: center;
+}
+
+#leadPastor h1, #leadPastor h2, #leadPastor h3 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+#leadPastor p, #leadPastor li {
+  font-size: .7rem;
+}
+
+#leadPastor ul {
+  margin: 0.5rem 0 1.5rem 1.5rem;
+}
+
+#jobsPage a {
+  color: var(--var-rnbw6);
+}
+
+#jobsPage a:visited {
+  color: var(--var-rnbw6);
 }

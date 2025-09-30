@@ -1,3 +1,21 @@
+:root {
+  --var-dark: #000;
+  --var-light: #ffff;
+  --var-medlight: #333333;
+  --var-lightmed: #a3a3a3;
+  --var-med: #535353;
+  --var-rnbw1: #953f41;
+  --var-rnbw2: #db6728;
+  --var-rnbw3: #fac745;
+  --var-rnbw4: #406b32;
+  --var-rnbw5: #3d7d83;
+  --var-rnbw6: #8e5078;
+  --var-pink: #d3889f;
+  --var-blue: #67aabc;
+  --var-brown: #5a3b1d;
+  font-family: "Poppins", sans-serif;
+}
+
 .contact-form {
   max-width: 60vw;
   font-family: sans-serif;
@@ -11,7 +29,7 @@
 
 .contact-form span {
   font-weight: normal;
-  color: #555;
+  color: var(--var-lightmed);
   font-size: 0.9em;
 }
 
@@ -30,14 +48,14 @@ textarea {
   width: 100%;
   padding: 0.6rem;
   margin-top: 0.2rem;
-  border: 1px solid #bbb;
+  border: 1px solid var(--var-lightmed);
   border-radius: 2px;
-  background: #f9f9f9;
+  background: var(--var-light);
   font-size: 1rem;
 }
 
 input:focus, textarea:focus, button:focus {
-  outline: 2px solid blue;
+  outline: 2px solid var(--var-rnbw5);
   outline-offset: 2px;
 }
 
