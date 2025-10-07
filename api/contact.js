@@ -12,23 +12,26 @@ export default async function handler(req, res) {
   }
 
   try {
-    // const transporter = nodemailer.createTransport({
-    //   host: process.env.SMTP_HOST,       // e.g. "smtp.gmail.com"
-    //   port: 465,
-    //   secure: true,                      // use SSL
-    //   auth: {
-    //     user: process.env.SMTP_USER,     // your email address
-    //     pass: process.env.SMTP_PASS,     // app password or mail password
-    //   },
-    // });
     const transporter = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASS,
-  },
-});
+      host: "smtp.gmail.com",       // e.g. "smtp.gmail.com"
+      port: 465,
+      secure: true,                      // use SSL
+      auth: {
+        type: "login",
+        user: process.env.SMTP_USER,     // your email address
+        pass: process.env.SMTP_PASS,     // app password or mail password
+      },
+    });
+//     const transporter = nodemailer.createTransport({
+//   service: 'gmail',
+//   auth: {
+//     user: process.env.SMTP_USER,
+//     pass: process.env.SMTP_PASS,
+//   },
+// });
 
+    console.log('SMTP_USER:', process.env.SMTP_USER ? '[SET]' : '[MISSING]');
+    console.log('SMTP_PASS:', process.env.SMTP_PASS ? '[SET]' : '[MISSING]');
 
     await transporter.sendMail({
       from: `"${first_name} ${last_name || ''}" <${email}>`,
@@ -50,6 +53,6 @@ ${message}
   }
 }
 
-console.log('SMTP_HOST:', process.env.SMTP_HOST);
-console.log('SMTP_USER:', process.env.SMTP_USER ? '[SET]' : '[MISSING]');
-console.log('SMTP_PASS:', process.env.SMTP_PASS ? '[SET]' : '[MISSING]');
+// console.log('SMTP_HOST:', process.env.SMTP_HOST);
+// console.log('SMTP_USER:', process.env.SMTP_USER ? '[SET]' : '[MISSING]');
+// console.log('SMTP_PASS:', process.env.SMTP_PASS ? '[SET]' : '[MISSING]');
